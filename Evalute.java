@@ -1,5 +1,19 @@
-static String evalute(String input)
-  {
+import java.text.DecimalFormat;
+import java.util.*;
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String input="2+2      ";
+		//input="7-4+2";
+
+		System.out.println(evalute(input));
+	}
+	static String evalute(String input)
+	{
 		return  compute_postfix(infixToPostfix(process(input)));
 	}
 	static boolean isNumber(char c)
@@ -188,3 +202,5 @@ static String evalute(String input)
 		return myFormatter.format(st.pop());
 		
 	}
+	
+}
