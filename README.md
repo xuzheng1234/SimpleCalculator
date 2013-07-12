@@ -1,0 +1,4 @@
+SimpleCalculator
+================
+
+API accepts + - * / ^
