@@ -1,6 +1,6 @@
 import java.text.DecimalFormat;
 import java.util.*;
-public class Evalute {
+public class Evaluate {
 
 	/**
 	 * @param args
